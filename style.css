@@ -1,0 +1,24 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+    border-color: red;
+}
+
+canvas{
+    animation-name: Swasti;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Swasti {
+    0%{box-shadow: 1px 1px 38px red;}
+    20%{box-shadow: 1px 1px 38px yellow;}
+    36%{box-shadow: 1px 1px 38px green;}
+    52%{box-shadow: 1px 1px 38px blue;}
+    68%{box-shadow: 1px 1px 38px purple;}
+    84%{box-shadow: 1px 1px 38px pink;}
+    100%{box-shadow: 1px 1px 38px red;}
+}
